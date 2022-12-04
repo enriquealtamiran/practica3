@@ -1,0 +1,25 @@
+$git init: Inicializamos nuestros proceso en git
+$git status -s: Muestra el estado de nuestra area de trabajo.
+$git commit -m "Nombre de actualizacion": crea respaldo de nuestro archivo con detalles.
+$git config --list: Nos muestra las configuraciones de nuestro git.
+$ git config --global user.name "Jerson.92" : Nomre de nuestro usuario
+$ git config --global user.email jerson.pastran@ct.unanleon.edu.ni : Correo de usuario
+$git add "nombre del archivo con su extension": agrega archivo y prepara para subir al area de trabajo
+$git log --oneline: nos muestra todos los commits realizados en lista.
+$git reset --hard "nombre de version": nos devuelve a la copia de version que deseamos.
+$git add . : sube a nuestra area de trabajo y le da seguimiento.
+$git commit -am "descripcion": hace un add y un commit a la vez
+$git pull: cambios hechos en nuestro repositorio en github.
+$git tag <Indicativo> Ej:
+$git tag 20-11-20v1 -m "version 1"
+$git push --tags: subiremos nuestras tags o etiquetas.
+$git clone <Enlace>: comando para clonar repositorios.
+
+****En caso de tener error de repositorios****
+$git update-git-for-windows
+
+
+
+
+
+
